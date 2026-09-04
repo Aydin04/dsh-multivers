@@ -2,7 +2,7 @@
 // Dedicated "🪐 MULTIVERS" Settings Tab and Dashboard
 
 window.__ModuleLoader__.load({
-  id: "@aydin04/dsh-multivers",
+  id: "@aydin0411/dsh-multivers",
   factory: (require) => {
     var module = { exports: {} };
     var exports = module.exports;
@@ -12,7 +12,7 @@ window.__ModuleLoader__.load({
     const h = react.createElement;
     const { useState, useEffect, useCallback } = react;
 
-    const name = "@aydin04/dsh-multivers";
+    const name = "@aydin0411/dsh-multivers";
     const inject = ["slots"];
 
     const TOKENS = {

@@ -1,5 +1,5 @@
 {
-  "name": "@aydin04/dsh-multivers",
+  "name": "@aydin0411/dsh-multivers",
   "version": "1.1.0",
   "description": "MULTIVERS engine for DeepSeek Harness: Zero-Bloat Payload Diet, Context Synthesizer, Flatline Rolling Window, and Settings Dashboard.",
   "type": "module",

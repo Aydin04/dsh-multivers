@@ -1,6 +1,6 @@
 - insert:
     - id: dsh-multivers
-      name: '@aydin04/dsh-multivers'
+      name: '@aydin0411/dsh-multivers'
       config:
         enabled: true
         enableSessionContextDigest: true
