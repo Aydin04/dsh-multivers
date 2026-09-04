@@ -1,0 +1,12 @@
+# MULTIVERS DSH Bundle Patch
+- insert:
+    - id: dsh-multivers
+      name: 'dsh-multivers'
+      config:
+        enabled: true
+        enableSessionContextDigest: true
+        slidingWindowMessages: 4
+        truncateToolResults: true
+        maxToolResultChars: 1500
+        smartThrottleMs: 1200
+        flatlineDietEnabled: true
