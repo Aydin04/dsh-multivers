@@ -2,7 +2,7 @@
 // Dedicated "🪐 MULTIVERS" Settings Tab and Dashboard
 
 window.__ModuleLoader__.load({
-  id: "dsh-multivers",
+  id: "@aydin04/dsh-multivers",
   factory: (require) => {
     var module = { exports: {} };
     var exports = module.exports;
@@ -12,7 +12,7 @@ window.__ModuleLoader__.load({
     const h = react.createElement;
     const { useState, useEffect, useCallback } = react;
 
-    const name = "dsh-multivers";
+    const name = "@aydin04/dsh-multivers";
     const inject = ["slots"];
 
     const TOKENS = {
@@ -330,7 +330,7 @@ window.__ModuleLoader__.load({
       ctx.slots.inject("settings.section", () =>
         ctx.slots.register({
           name: "settings.section",
-          id: "dsh-multivers",
+          id: "@aydin04/dsh-multivers",
           order: 40,
           label: () => "🪐 MULTIVERS",
         }, () => h(MultiversDashboard, null))
