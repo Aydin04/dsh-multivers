@@ -1,6 +1,6 @@
 {
-  "name": "@aydin04/dsh-multivers",
-  "version": "1.0.0",
+  "name": "@aydin0411/dsh-multivers",
+  "version": "1.0.1",
   "description": "MULTIVERS engine for DeepSeek Harness: Zero-Bloat Payload Diet, Context Synthesizer, Flatline Rolling Window, and Settings Dashboard.",
   "type": "module",
   "main": "lib/index.js",
@@ -48,5 +48,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aydin04/dsh-multivers.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
