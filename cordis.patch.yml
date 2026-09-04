@@ -1,7 +1,6 @@
-# MULTIVERS DSH Bundle Patch
 - insert:
     - id: dsh-multivers
-      name: 'dsh-multivers'
+      name: '@aydin04/dsh-multivers'
       config:
         enabled: true
         enableSessionContextDigest: true
